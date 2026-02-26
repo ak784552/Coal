@@ -690,79 +690,79 @@ int no;
 ,"Xhash: First parameter [%s] is not 'New'."}
 ,{270
 ,"Xhash: ハッシュTableへのポインタがＮＵＬＬです。"
-,""}
+,"Xhash: The pointer to the hash table is NULL."}
 ,{271
 ,"Xhash: ハッシュTableが不正です。id='%c%c'"
-,""}
+,"Xhash: The hash table is invalid. id='%c%c'"}
 ,{272
 ,"Xhash: コマンドの指定がありません。"
-,""}
+,"Xhash: No command specified."}
 ,{273
 ,"Xhash: Indexの指定がありません。cmd=[%s]"
-,""}
+,"Xhash: No index specified. cmd=[%s]"}
 ,{274
 ,"Xhash: データは指定できません。"
-,""}
+,"Xhash: Data cannot be specified."}
 ,{275
 ,"Xhash: コマンドが誤っています。cmd=[%s]"
-,""}
+,"Xhash: Invalid command. cmd=[%s]"}
 ,{276
 ,"Xhash: 第１パラメータの型が文字型でも数値型でもありません。"
-,""}
+,"Xhash: The type of the first parameter is neither a character type nor a numeric type."}
 ,{277
 ,"(W)%s: (%e)オーバフローしました。"
-,""}
+,"(W)%s: (%e) overflowed"}
 ,{278
 ,"(W)%s: (%ld)オーバフローしました。"
-,""}
+,"(W)%s: (%ld) overflowed"}
 ,{279
 ,"%s: キー長(%d)＞キー定義長(%d)"
-,""}
+,"%s: Key length (%d) > Key definition length (%d)"}
 ,{280
 ,"(W)%s: (%s)オーバフローしました。"
-,""}
+,"(W)%s: (%s) overflowed"}
 ,{281
 ,"開始位置が整数ではありません。"
-,""}
+,"The start position is not an integer."}
 ,{282
 ,"長さが整数ではありません。"
-,""}
+,"The length is not an integer."}
 ,{284
 ,"replace: 置換指定が整数ではありません。"
-,""}
+,"replace: The replacement specification is not an integer."}
 ,{285
 ,"%s: パラメータの型(%04x)が合っていません。"
-,""}
+,"%s: Parameter type (%04x) does not match."}
 ,{286
 ,"parm_to_char: 変数またはデータが未定義です。"
-,""}
+,"parm_to_char: The variable or data is undefined."}
 ,{287
 ,"max_args(%d)が不正です。"
-,""}
+,"max_args(%d) is invalid."}
 ,{288
 ,"max_args(%d)が配列の個数(%d)を超えています。調整しました。"
-,""}
+,"max_args(%d) exceeds the number of elements in the array (%d). Adjusted."}
 ,{289
 ,"max_pos(%d)が不正です。"
-,""}
+,"max_pos(%d) is invalid."}
 ,{290
 ,"max_pos(%d)が配列の個数/2(%d)を超えています。調整しました。"
-,""}
+,"max_pos(%d) exceeds the array size/2(%d). Adjusted."}
 ,{291
 ,"%s: 変換子(%s)に誤りがあります。"
-,""}
+,"%s: There is an error in the conversion specifier (%s)."}
 ,{292
 ,"%s: 位取り(%d)が不正です。"
-,""}
+,"%s: Invalid positional notation(%d)"}
 ,{293
 ,"%s: 精度(%d)が不正です。"
-,""}
+,"%s: Invalid precision (%d)."}
 ,{294
 ,"(W)%s: MPA(%s) オーバフロー! set MAX value."
-,""}
+,"(W)%s: MPA(%s) overflow! Set MAX value."}
 ,{295
 ,"(W)%s: MPA(%s) オーバフロー!"
-,""}
+,"(W)%s: MPA(%s) overflow!"}
 ,{296
 ,"システムエラー(Len<0)"
 ,"system error (Len<0)"}
@@ -774,13 +774,13 @@ int no;
 ,"%s: get %s error."}
 ,{299
 ,"%s[%s]に誤りがあります。"
-,""}
+,"There is an error in %s[%s]."}
 ,{300
 ,"%s[%s]が文字型ではありません。"
-,""}
+,"%s[%s] is not a character type."}
 ,{301
 ,"文字定数エラー[%s]"
-,""}
+,"Character constant error [%s]"}
 ,{302
 ,"定数"
 ,"Constant"}
@@ -789,52 +789,52 @@ int no;
 ,"AS format"}
 ,{306
 ,"%s: 数字以外の文字[%s]があります(pos=%d)。"
-,""}
+,"%s: Contains non-numeric character [%s] (pos=%d)."}
 ,{307
 ,"%s: ２進浮動小数点数[%s]の指定が誤っています(rc=%d)。"
-,""}
+,"%s: Invalid specification for binary floating-point number [%s] (rc=%d)."}
 ,{308
 ,"%s: １０進小数点数[%s]の指定が誤っています(rc=%d)。"
-,""}
+,"%s: Invalid specification for decimal floating-point number [%s] (rc=%d)."}
 ,{311
-,"cl_gx_get_info_parm_opt:%sはパラメータに誤りがあります。"
-,""}
+,"cl_gx_get_info_parm_opt: %sはパラメータに誤りがあります。"
+,"cl_gx_get_info_parm_opt: %s has an invalid parameter."}
 ,{316
 ,"%s: %s(%s)のエントリ用の空きがありません。"
-,""}
+,"%s: No space available for entry of %s(%s)."}
 ,{317
 ,"%s: %s(%s)は未定義です。"
-,""}
+,"%s: %s(%s) is undefined."}
 ,{318
 ,"%s: %sは使用できません。"
-,"%s: %s is unusable."}
+,"%s: %s is not available."}
 ,{319
 ,"%s: %sは変数ではありません。"
-,""}
+,"%s: %s is not a variable."}
 ,{320
 ,"%s: %sのインデックス(%d)は範囲外です。"
-,""}
+,"Index of %s (%d) is out of range."}
 ,{321
 ,"%s: %s用のMallocエラー。"
-,""}
+,"%s: Malloc error for %s."}
 ,{322
 ,"%s: 変数(%s)の%sは無効です(gid=%d hash ix=%d)。"
-,""}
+,"%s: For variable (%s), invalid %s (gid=%d hash ix=%d)."}
 ,{323
 ,"%s: %sの%sエントリ用の空きがありません。"
-,""}
+,"%s: No space left for %s entries on %s."}
 ,{324
 ,"%s: SCRIPT変数[%s]は定義できません。"
-,""}
+,"%s: The SCRIPT variable [%s] cannot be defined."}
 ,{325
 ,"cl_gx_chk_scope:W: %sの上位にProcPathがNULLのprocがあります。"
-,""}
+,"cl_gx_chk_scope:W: There is a proc with ProcPath NULL above %s."}
 ,{326
 ,"手続き名"
 ,"Procedure Name"}
 ,{327
 ,"%s: %s名がNULLです。"
-,""}
+,"%s: The %s name is NULL."}
 ,{328
 ,"データリスト式"
 ,"DATA LIST Expression"}
@@ -843,217 +843,217 @@ int no;
 ,"variable"}
 ,{330
 ,"静的型付け配列"
-,""}
+,"Static-typed array"}
 ,{331
 ,"手続き(%s)が有りません。"
-,""}
+,"No procedure (%s) exists."}
 ,{332
 ,"SQL/SLEEP/MSG実行エラー(rc=%d)、関数の実行を終了します。"
-,""}
+,"SQL/SLEEP/MSG execution error (rc=%d), terminating function execution."}
 ,{333
 ,"%s: メソッド[%s]は未定義です。"
-,""}
+,"%s: Method [%s] is undefined."}
 ,{334
 ,"%s: 関数(%s)は使用できません。"
-,""}
+,"%s: The function (%s) is not available."}
 ,{335
 ,"%s: コンストラクタ[%s]は未定義です。"
-,""}
+,"%s: The constructor [%s] is undefined."}
 ,{336
 ,"間接ファイル[%s] Open Error"
-,""}
+,"Indirect File [%s] Open Error"}
 ,{337
 ,"ParmSet: パラメータ長エラー"
-,""}
+,"ParmSet: Parameter length error"}
 ,{338
 ,"cl_get_script_name: %sが見つかりません。"
-,""}
+,"cl_get_script_name: %s not found."}
 ,{339
 ,"ポインタ"
 ,"pointer"}
 ,{340
 ,"未設定"
-,""}
+,"Not set"}
 ,{341
 ,"%s: NULLパラメータは指定できません。"
-,""}
+,"%s: NULL parameters cannot be specified."}
 ,{342
 ,"%s: NULL値は指定できません。"
-,""}
+,"%s: NULL values cannot be specified."}
 ,{343
 ,"%s: オプション番号(%d)が不正です。"
-,""}
+,"%s: Option number (%d) is invalid."}
 ,{344
 ,"cl_proc_bexp: 演算子[%s]が'='ではありません。"
-,""}
+,"cl_proc_bexp: Operator [%s] is not '='."}
 ,{346
 ,"コマンドＩＤエラー !!"
-,""}
+,"Command ID error!!"}
 ,{347
 ,"パラメータ個数エラー !!"
-,""}
+,"Number of parameters error !!"}
 ,{348
 ,"パラメータからホストＩＤが取得できない !!"
-,""}
+,"Unable to obtain HostID from parameters!!"}
 ,{349
 ,"ホストＩＤの属性が文字でない"
-,""}
+,"The data type of the HostID are not characters."}
 ,{350
 ,"ホストＩＤの長さが誤っている"
-,""}
+,"HostID length is incorrect."}
 ,{351
 ,"ホストＩＤからＩＰアドレスが取得できない !!"
-,""}
+,"Unable to obtain IP address from HostID!!"}
 ,{352
 ,"すでに、LEAVEされて来ている !!"
-,""}
+,"LEAVE is already been done!!"}
 ,{356
 ,"該当するデータ格納エリアIDが存在しない"
-,""}
+,"The corresponding data storage AreaID does not exist."}
 ,{357
 ,"タプル番号の式が誤っています。ret=%d"
-,""}
+,"Expression for tuple number is incorrect. ret=%d"}
 ,{358
 ,"タプル番号: "
-,""}
+,"Tuple Number: "}
 ,{359
 ,"タプル番号が範囲外です。"
-,""}
+,"The tuple number is out of range."}
 ,{360
 ,"データ格納エリアID"
-,""}
+,"Data Storage AreaID"}
 ,{361
 ,"W: %s[%s] 長さ(%d)"
-,""}
+,"W: %s[%s] Length (%d)"}
 ,{362
 ,"%s[%s] 構成文字 error"
-,""}
+,"%s[%s] character error"}
 ,{365
 ,"%sが重複しています。"
-,"%s is duplicate"}
+,"%s is duplicated"}
 ,{366
 ,"前に %s があります。"
-,""}
+,"There is a %s ahead."}
 ,{367
 ,"カッコの対応が取れていません。"
-,""}
+,"The parentheses are not properly matched."}
 ,{371
 ,"フィールドの数が合わない。"
-,""}
+,"The number of fields does not match."}
 ,{372
 ,"%s: データ個数が0です。"
-,""}
+,"%s: The number of data items is 0."}
 ,{376
 ,"パラメータ数に誤りがあります。"
-,""}
+,"The number of parameters is incorrect."}
 ,{378
-,"該当する項目番号が見つからない"
-,""}
+,"該当する項目番号が見つからない。"
+,"The corresponding item number cannot be found."}
 ,{379
 ,"結合条件がない。"
-,""}
+,"There is no join condition."}
 ,{381
 ,"カレント・スクリプト・テーブルが見つからない"
-,""}
+,"Current script table not found."}
 ,{382
-,"検索種類コードが不正です"
-,""}
+,"検索種類コードが不正です。"
+,"The search type code is invalid."}
 ,{383
 ,"条件式の生成に失敗"
-,""}
+,"Failed to generate conditional expression"}
 ,{384
 ,"SQLの発行に失敗"
-,""}
+,"Failed to execute SQL"}
 ,{385
 ,"検索結果の読み込みに失敗"
-,""}
+,"Failed to load search results"}
 ,{386
-,"SQLコマンド%sの生成に失敗"
-,""}
+,"SQLコマンド[%s]の生成に失敗"
+,"Failed to generate SQL command [%s]"}
 ,{387
 ,"SQLコマンド(SELECT)の生成に失敗"
-,""}
+,"Failed to generate SQL command (SELECT)"}
 ,{388
 ,""
 ,""}
 ,{389
-,"検索結果の受け取りに失敗しました"
-,""}
+,"検索結果の受け取りに失敗しました。"
+,"Failed to receive search results."}
 ,{391
 ,"iSel=%d ＩＰ以外は、実行できません。"
-,""}
+,"iSel=%d Only IP can be executed."}
 ,{392
 ,"cl_ex_shell: 空文です。"
-,""}
+,"cl_ex_shell: Empty text."}
 ,{393
 ,"cl_func_f: 引数[%s]が関数名ではありません。"
-,""}
+,"cl_func_f: Argument [%s] is not a valid function name."}
 ,{394
 ,"cl_func_f: 引数が不正です。"
-,""}
+,"cl_func_f: Invalid argument."}
 ,{395
 ,"%s: データ型(%02x)が不正です。"
-,""}
+,"%s: Invalid data type (%02x)."}
 ,{396
 ,"file/pipe/dir用のfpは無効です。"
-,""}
+,"The file/pipe/dir fp is disabled."}
 ,{397
 ,"_func_felread1: 属性(%d)が不正です。"
-,""}
+,"_func_felread1: Invalid attribute (%d)."}
 ,{398
 ,"%s[%s]をクローズしました。"
-,""}
+,"Closed %s[%s]."}
 ,{401
 ,"func_math: %s 引数を無視します。"
-,""}
+,"func_math: %s Argument ignored."}
 ,{402
 ,"func_math: %s 引数が負です。"
-,""}
+,"func_math: %s Argument is negative."}
 ,{403
 ,"func_math: %s 引数が不正です。"
-,""}
+,"func_math: Invalid %s argument."}
 ,{404
 ,"func_math: %s 指数値がありません。"
-,""}
+,"func_math: %s No exponent value."}
 ,{405
 ,"func_math: %s Ｙ座標値がありません。"
-,""}
+,"func_math: %s Y coordinate value is missing."}
 ,{406
 ,"cl_node_process: このコマンド[%s]は実行できません。"
-,"cl_node_process: [%s] is can't executed."}
+,"cl_node_process: This command [%s] cannot be executed."}
 ,{407
 ,"cl_node_process: cid=%08x コマンドではありません。"
-,""}
+,"cl_node_process: cid=%08x is not a command."}
 ,{408
 ,"cl_node_control: ＲＥＴＵＲＮ文がありません。"
-,""}
+,"cl_node_control: There is no RETURN statement."}
 ,{411
 ,"%sレベル(%d)が不正です。"
-,""}
+,"%sLevel (%d) is invalid."}
 ,{412
 ,"%sレベル(%d)がオーバです。"
-,""}
+,"%sLevel (%d) is over."}
 ,{414
 ,"cl_set_logparmi: ログファイル名の型(%d)があっていません。"
-,""}
+,"cl_set_logparmi: The log file name type (%d) is incorrect."}
 ,{415
 ,"cl_set_logparmi: ログ番号(%d)が不正です。"
-,""}
+,"cl_set_logparmi: Invalid log number (%d)."}
 ,{416
 ,"外部変数[%s]が未定義です。"
-,""}
+,"External variable [%s] is undefined."}
 ,{417
 ,"*** 検索結果(%s)は %d 件です。"
-,""}
+,"*** Search results (%s) are %d items."}
 ,{418
 ,"%s: 名前付き引数の名前[%s]が誤っています。"
-,""}
+,"%s: The name of the named argument [%s] is incorrect."}
 ,{419
 ,"%s: 同じ名前[%s]の名前付き引数があります。"
-,""}
+,"%s: There is a named argument with the same name [%s]."}
 ,{420
 ,"%s: 第 %d 項目 マップインデックスに範囲指定[%s]は、指定できません。"
-,""}
+,"%s: Item %d: The range specification [%s] cannot be used in the map index."}
 ,{421
 ,"%s: %s:(W)%s変数[%s]が定義済みです。"
 ,""}
